@@ -1,0 +1,35 @@
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list-group-item{
+    background-color: rgb(70, 70, 70);
+
+}
+
+.grid {
+    background-color: rgb(255, 255, 255);
+}
+
+.div-formacoes {
+    background-color: rgb(255, 255, 255);
+}
+
+.grid2 {
+    background-color: rgb(70, 70, 70);
+}
+
+.grid3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.lead {
+    background-color: rgb(70, 70, 70);
+}
+
+.texto-resumo {
+    background-color: rgb(255, 255, 255);
+}
+
+.div-idiomas {
+    background-color: rgb(70, 70, 70);
+}
