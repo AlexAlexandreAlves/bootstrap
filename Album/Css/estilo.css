@@ -1,8 +1,16 @@
 
 
 .body{
-    background-color: rgb(194, 68, 68);
+    background-color: #fdc292;
+ ;
 }
 
+.filter{
+    
+    background-color: #fd7e14;
+    text-decoration:double;
+    border-radius: 10%; 
+    
+}
 
 

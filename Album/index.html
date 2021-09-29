@@ -1,59 +1,55 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Css/estilo.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
-
-
-    <title class="titulo">Album</title>
+    <link rel="stylesheet" href="Css/estilo.css">
 
 </head>
 
 <body class="body">
-
+    <title class="titulo">Album</title>
     <div>
-        <div-container class="mt-5">
+        <div-container class="container">
             <div-row>
-                <div-col md="12" class="d-flex justify-content-center mb-5">
-                    <div-btn @click.native="show = 'all'" outline="black" class="filter" dark-waves>Álbum</div-btn>
+                <div-col md="12" class="d-flex justify-content-center mb-5; fs-4">
+                    <div-title class="filter">Album de Músicas</div-title>
                 </div-col>
             </div-row>
-            <div class="gallery" id="gallery">
-            </div>
+
             <div class="row align-items-start">
-                <div style="background-color: darkcyan" class="col">
-                    One of three columns
+                <div style="background-color: #fd7e14" class="col">
+                    Red Hot Chilli Peppers
                     <img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61Hc3J8QjGL._AC_.jpg"
                         alt="Card image cap">
-                    <div>Red Hot Chilli Peppers</div>
+                    <div>Californication</div>
                     <div>1999</div>
 
                 </div>
-                <div style="background-color: rgb(115, 192, 192)" class="col">
-                    One of three columns
-                    <img class="img-fluid" src="https://m.media-amazon.com/images/I/61leX4R5P2S._UXNaN_FMjpg_QL85_.jpg"
-                        alt="Card image cap">
-                    <div>Dirty Heads</div>
-                    <div>2021</div>
-                </div>
-                <div style="background-color: rgb(243, 252, 248)" class="col">
-                    One of three columns
+
+                <div style="background-color: #fdac69" class="col">
+                    Eminem
                     <img class="img-fluid"
                         src="https://www.hojeemdia.com.br/polopoly_fs/1.652202!/image/image.png_gen/derivatives/landscape_653/image.png"
                         alt="Card image cap">
-                    <div>Eminem</div>
+                    <div>Kamikaze</div>
                     <div>2018</div>
                 </div>
+                <div style="background-color: #fd7e14" class="col">
+                    Dirty Heads
+                    <img class="img-fluid" src="https://m.media-amazon.com/images/I/61leX4R5P2S._UXNaN_FMjpg_QL85_.jpg"
+                        alt="Card image cap">
+                    <div>The Best of Dirty Heads</div>
+                    <div>2021</div>
+                </div>
+
             </div>
-
-
 
         </div-container>
     </div>
